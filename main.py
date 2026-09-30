@@ -1,4 +1,9 @@
-def main():
-    print("Hello World!")
+import sys
+from PyQt6.QtWidgets import QApplication, QWidget
 
-main()
+app = QApplication(sys.argv)
+
+window = QWidget()
+window.show()
+
+app.exec()
